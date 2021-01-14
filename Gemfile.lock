@@ -87,7 +87,7 @@ DEPENDENCIES
   pg
   pry
   rack-flash3
-  rake
+  rake (~> 13.0, >= 13.0.3)
   require_all
   shotgun
   sinatra
