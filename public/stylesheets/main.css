@@ -11,11 +11,11 @@
 }
 
 body {
+  background: #000119;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    background: #000119;
     align-items: center;
     -webkit-align-items: center;
 }
