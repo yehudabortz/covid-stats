@@ -78,7 +78,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86_64-darwin-20
 
 DEPENDENCIES
   activerecord (~> 6.0.0)
@@ -98,4 +97,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   2.2.5
+   2.0.0
