@@ -17,7 +17,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
     gem 'faker'
     gem "tux"
     gem 'pry'
-    gem 'rake', '~> 13.0', '>= 13.0.3'
+
 
     group :development do
         gem 'sqlite3'
@@ -28,4 +28,3 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
         gem 'activerecord-postgresql-adapter'
      end
 
-     ruby "2.6.1"

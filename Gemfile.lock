@@ -39,7 +39,6 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (13.0.3)
     require_all (3.0.0)
     ripl (0.7.1)
       bond (~> 0.5.1)
@@ -87,7 +86,6 @@ DEPENDENCIES
   pg
   pry
   rack-flash3
-  rake (~> 13.0, >= 13.0.3)
   require_all
   shotgun
   sinatra
@@ -95,9 +93,6 @@ DEPENDENCIES
   sqlite3
   thin
   tux
-
-RUBY VERSION
-   ruby 2.6.1p33
 
 BUNDLED WITH
    2.2.5
