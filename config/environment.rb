@@ -1,6 +1,5 @@
 ENV['SINATRA_ENV'] ||= "development"
 
-require 'bundler/setup'
 require 'JSON'
 require 'net/http'
 require 'open-uri'
