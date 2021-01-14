@@ -1,2 +1,1 @@
-dev: bundle exec rackup -o 0 -p 8080
-web: APP_ENV=production ./vendor/rackup -p "$PORT"
+web: bundle exec thin start -R config.ru -e $RACK_ENV -p $PORT
