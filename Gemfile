@@ -28,4 +28,4 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
         gem 'activerecord-postgresql-adapter'
      end
 
-     ruby "2.6.1"
+     ruby "2.6.6"
