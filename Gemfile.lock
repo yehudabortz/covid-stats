@@ -24,6 +24,7 @@ GEM
       i18n (>= 1.6, < 2)
     i18n (1.8.7)
       concurrent-ruby (~> 1.0)
+    json (2.5.1)
     method_source (1.0.0)
     minitest (5.14.3)
     mustermann (1.1.1)
@@ -84,6 +85,7 @@ DEPENDENCIES
   activerecord-postgresql-adapter
   bcrypt
   faker
+  json
   pg
   pry
   rack-flash3
@@ -96,5 +98,8 @@ DEPENDENCIES
   thin
   tux
 
+RUBY VERSION
+   ruby 2.6.1p33
+
 BUNDLED WITH
-   2.2.5
+   2.1.4

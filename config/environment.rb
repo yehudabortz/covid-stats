@@ -9,7 +9,7 @@ require 'open-uri'
 require 'sinatra'
 require 'rack-flash'
 require 'net/http'
-require 'JSON'
+require 'json'
 
 require_all 'app'
 

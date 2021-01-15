@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-
+    ruby "2.6.1"
 
     gem 'sinatra'
     gem 'activerecord', '~> 6.0.0', :require => 'active_record'
@@ -18,6 +18,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
     gem "tux"
     gem 'pry'
     gem 'rake', '~> 13.0', '>= 13.0.3'
+    gem 'json'
 
     group :development do
         gem 'sqlite3'
@@ -27,4 +28,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
         gem 'pg'
         gem 'activerecord-postgresql-adapter'
      end
+
 
