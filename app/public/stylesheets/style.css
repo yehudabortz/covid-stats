@@ -91,13 +91,13 @@ h3 {
 }
 
 #confirmed h2 {
-  color: #83c885;
+  color: #727ddf;
 }
 #deceased h2 {
   color: #f15e58;
 }
 #recovered h2 {
-  color: #727ddf;
+  color: #83c885;
 }
 #active h2 {
   color: #fee174;
