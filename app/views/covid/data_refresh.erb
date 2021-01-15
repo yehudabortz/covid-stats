@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-    <title>Covid Stats</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/images/newcovid.png" rel="shortcut icon" type="image/x-icon">
-    <link href="/images/newcovid.jpg" rel="apple-touch-icon">
-    <link type="text/css" rel="stylesheet" href="/stylesheets/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body id="data">
-    <section class="container">
+
+    <section id="data" class="container">
         <div class="data-wrap">
             <% Country.create_from_scraper %>
             <div class="flex-column grid">
@@ -42,13 +30,3 @@
         </div>
         <% Country.all.clear %>
     </section>
-
-    <script>
-        $(document).ready(function(){  
-            setInterval(function(){   
-                $("#data").load("/data");
-            }, 10000);
-        });
-    </script>
-  </body>
-</html>

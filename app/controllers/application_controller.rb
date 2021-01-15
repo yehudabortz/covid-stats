@@ -15,6 +15,10 @@ class ApplicationController < Sinatra::Base
         erb :'covid/index'
     end
 
+    get '/data' do
+      erb :'covid/data_refresh'
+    end
+
     not_found do
         erb :not_found
       end
